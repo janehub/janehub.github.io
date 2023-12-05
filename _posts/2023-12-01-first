@@ -1,0 +1,49 @@
+---
+layout: single
+title:  "Development Log"
+permalink: /dlog/
+---
+# Flutter - Text Overflow 해결
+ 
+## 문제
+Text Overflow 가 발생하는 현상
+ 
+## 해결 시도 1
+ Text Widget 에 리미트 설정 : maxLines, overflow 설정
+<pre>
+    <code>
+child: Text(
+      ...,
+  ),
+  maxLines: 1,
+  overflow: TextOverflow.ellipsis,
+),
+    </code>
+</pre>
+
+-> 해결 실패
+
+## 해결 시도 2
+Text Widget을 Flexible Widget 으로 감싸고 난 후, Text Widget에 maxLines, overflow 설정
+<pre>
+    <code>
+Flexible(
+child: Text(
+      ...,
+  ),
+  maxLines: 1,
+  overflow: TextOverflow.ellipsis,
+),
+    </code>
+</pre>
+
+-> 해결 성공
+
+## 원인 및 솔루션
+Text Widget은 길이가 길어지면 주변 위젯을 밀어버려서 Overflow를 발생시킬 수 있다.
+이것을 해결하기 위해서는 크기를 지정해주는 Container, Flexible, SizedBox 등의 위젯을 Text Widget 에 Wrapping 해서 Text Widget의 오버플로우를 막으면 된다.
+
+## 마무리
+Text Widget 의 Overflow는 Container, Flexible, SizedBox 등의 부모 위젯을 만들어서 해결할 수 있다.
+
+
