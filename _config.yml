@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "J의 개발일지 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "박지연"
+name                     : "J Park"
 description              : "개발일지를 기록하는 블로그입니다."
 url                      : "https://janehub.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "박지연"
+  name             : "J Park"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** developer."
   location         : "Seoul"
