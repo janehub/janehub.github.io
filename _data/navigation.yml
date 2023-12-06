@@ -2,8 +2,10 @@
 main:
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "d-log"
-     url: /dlog/
+   - title: "Category"
+     url: /categories/
+   # - title: "d-log"
+   #   url: /dlog/
    # - title: "About"
    #   url: https://mmistakes.github.io/minimal-mistakes/about/
    # - title: "Sample Posts"
