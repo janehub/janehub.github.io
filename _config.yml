@@ -112,17 +112,17 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:icebaebae1234@gmail.com"
+      url: "mailto:icebaebae1234@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/janehub"
+      url: "https://github.com/janehub"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/janehub"
+      url: "https://github.com/janehub"
 
 # Reading Files
 include:
