@@ -6,6 +6,15 @@ main:
      url: /categories/
    - title: "Tag"
      url: /tags/
+
+docs:
+  - title: "목차"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+
    # - title: "d-log"
    #   url: /dlog/
    # - title: "About"
