@@ -1,0 +1,18 @@
+---
+layout: single
+title:  "IOS 시뮬레이터 실행시 Unable to boot simulater 에러"
+categories: xcode
+tag: [xcode, ios]
+author_profile: false
+sidebar:
+    nav: "docs"
+---
+
+## Mac에서 해결방법
+
+1. 이 Mac에 관하여
+2. 추가정보..
+3. 저장공간
+4. 저장공간 설정
+5. 개발자
+6. xcode 캐시 삭제
